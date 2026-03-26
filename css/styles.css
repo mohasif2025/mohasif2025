@@ -5,11 +5,22 @@
   box-sizing: border-box;
 }
 
-.wave-logo {
-  margin-left: 15px;
-  margin-bottom:15px;
+.wave-project {
+  position: relative;
 }
 
+.wave-logo {
+  position: absolute;
+  bottom: 20px;   /* move UP by decreasing this */
+  left: 20px;     /* change to right: 20px if you want right side */
+
+  width: 120px;
+
+
+  transform: scale(1.4);
+
+  border-radius: 10px;
+}
 body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(270deg, #101012, rgb(14, 10, 55), #0c0b0e);
