@@ -6,7 +6,8 @@
 }
 
 .wave-logo {
-  transform: scale(1.3) translate(-10px, -10px);
+  margin-left: 15px;
+  margin-bottom:15px;
 }
 
 body {
