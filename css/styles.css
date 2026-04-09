@@ -1,19 +1,11 @@
-.project {
-  position: relative;
-}
-
 .wave-logo {
   position: absolute;
-  bottom: 20px;   /* controls vertical position */
-  right: 20px;    /* move it to the RIGHT side */
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
 
-  width: 120px;
-  opacity: 0.9;
-
-  /* remove extra space feel */
-  transform: scale(1.2);
+  width: 140px;
 }
-
 
 /* Reset and base styles */
 * {
